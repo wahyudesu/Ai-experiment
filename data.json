@@ -1,0 +1,11 @@
+
+{
+  "pertanyaan": "Siapakah penemu telepon?",
+  "opsi_jawaban": [
+    "Albert Einstein",
+    "Alexander Graham Bell",
+    "Thomas Edison",
+    "Nikola Tesla"
+  ],
+  "jawaban_benar": "Alexander Graham Bell"
+}

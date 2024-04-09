@@ -1,0 +1,180 @@
+[
+    {
+       "question": "Can linear function be used as activation function in hidden layer of neural network?",
+       "options": ["yes, any math function can be used as activation function", "technically it can, but it defeats the purpose of having multiple layers, as the network would not be able to learn complex, non-linear patterns in the data"],
+       "correct_answer": "technically it can, but it defeats the purpose of having multiple layers, as the network would not be able to learn complex, non-linear patterns in the data"
+     },
+     {
+        "question": "Simple linear regression model can be considered as a basic form of a neural network with one input and one output neuron",
+        "options": ["Yes", "No"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "What does correctly describe Rectified Linear Unit activation function?",
+        "options": ["the function returns x for any negative input and zero for any positive input", "the function returns abs(x) of negative input", "the function returns x for any positive input and zero for any negative input"],
+        "correct_answer": "the function returns x for any positive input and zero for any negative input"
+      },
+      {
+        "question": "Swish activation function has Sigmoid-Like behavior",
+        "options": ["Yes, because it contains sigmoid function", "No, Swish function has nothing to do with Sigmoid", "Yes, Swish another name of Sigmoid, it is the same function"],
+        "correct_answer": "Yes, because it contains sigmoid function"
+      },
+      {
+        "question": " f(x)=x⋅σ(βx) where:<br>x is the input to the function,<br>σ is the sigmoid function,<br>β is a predefined constant<br>is...",
+        "options": ["Swish function", "ELU function", "SELU function"],
+        "correct_answer": "Swish function"
+      },
+      {
+        "question": "Neuron's weight in input layer is ...",
+        "options": ["random value set by initialization algorithm", "assigned based on user preferences before training"],
+        "correct_answer": "random value set by initialization algorithm"
+      },
+      {
+        "question": "Forward Pass and Backward Pass are the fundamental stages of learning process where",
+        "options": ["NN defines random values for its initial layer", "NN learns by adjusting its parameters based on input data and computed errors, respectively", "These steps do not belong to NN at all"],
+        "correct_answer": "NN learns by adjusting its parameters based on input data and computed errors, respectively"
+      },
+      {
+        "question": "What if all NN weights were the same in input layer?",
+        "options": ["NN will not learn anything from this state", "It does not matter, because back propagation adjusts them", "They are initially the same, but weight is randomly chosen"],
+        "correct_answer": "NN will not learn anything from this state"
+      },
+      {
+        "question": "In Neural Network <strong>bias</strong> is a constant through the whole learning process?",
+        "options": ["Yes", "No"],
+        "correct_answer": "No"
+      },
+      {
+        "question": "In general, bias in NN provides model with more flexibility to fit the data better",
+        "options": ["Yes", "No"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "In context of Neural Network one complete pass through the entire training dataset, which consists of processing all the batches in the dataset is ...",
+        "options": ["century", "era", "epoch"],
+        "correct_answer": "epoch"
+      },
+      {
+        "question": "In PyTorch <strong>optimizer</strong> algorithm calibrates the model's parameters (weights and biases) in the direction that reduces the value of the loss function",
+        "options": ["Yes", "No"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "To measure how poor or how wrong model's predictions compare to ideal world are ... ... is used",
+        "options": ["Loss function", "Balance function", "Forward Pass function"],
+        "correct_answer": "Loss function"
+      },
+      {
+        "question": "torch.optim.Adam is an example of",
+        "options": ["optimizer algorithm", "it is a joke, Adam is a human's name", "random weights selector"],
+        "correct_answer": "optimizer algorithm"
+      },
+      {
+        "question": "in PyTorch <strong>Mean Absolute Error</strong> (loss) is",
+        "options": ["torch.nn.L1Loss()", "torch.nn.CrossEntropyLoss()", "torch.nn.CTCLoss()"],
+        "correct_answer": "torch.nn.L1Loss()"
+      },
+      {
+        "question": "let us make lr = 0,0001 (lr = learning rate, hyper parameter in optimizer), in case neuron's weight = 0.3425, optimizer will make a change to ...",
+        "options": ["5", "4", "3", "2"],
+        "correct_answer": "5"
+      },
+      {
+        "question": "The smaller <strong>learning rate</strong> parameter is, the bigger change it does to model's parameters",
+        "options": ["Yes", "No"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "Epoch, Learning Rate are hyper parameters, because",
+        "options": ["system sets them and they can not be adjusted", "we (as ML engineers) set them by ourselves"],
+        "correct_answer": "we (as ML engineers) set them by ourselves"
+      },
+      {
+        "question": "SQL is written in ...",
+        "options": ["Cobol", "Assembler", "C/C++", "Java"],
+        "correct_answer": "C/C++"
+      },
+      {
+        "question": "Neurons that produce outputs close to zero or even zero itself during model training are excluded from learning process once an Epoch is completed",
+        "options": ["Yes, they are classified as white noise and spoil loss function results", "No, these neurons are still contributing to the network's ability to generalize and make predictions on new, unseen data"],
+        "correct_answer": "No, these neurons are still contributing to the network's ability to generalize and make predictions on new, unseen data"
+      },
+      {
+        "question": "Xavier/Grolot, LeCun, He, Zero are ...",
+        "options": ["optimizing algorithms", "weights initialization algorithms", "loss calculation algorithms"],
+        "correct_answer": "weights initialization algorithms"
+      },
+      {
+        "question": "Loss computation happens",
+        "options": ["before forward pass, since loss value is input for forward pass", "before back propagation and after forward pass, because back propagation minimizes loss function value", "at the beginning of each epoch"],
+        "correct_answer": "before back propagation and after forward pass, because back propagation minimizes loss function value"
+      },
+      {
+        "question": "In Python 'pass' statement is non-operation statement",
+        "options": ["yes, skips code inside a loop iteration within current iteration", "yes, it is often used in situations where the syntax demands some code but you want to skip execution"],
+        "correct_answer": "yes, it is often used in situations where the syntax demands some code but you want to skip execution"
+      },
+      {
+        "question": "In Python 'continue' statement is used to ...",
+        "options": ["it works exactly the same way as 'pass' statement", "skip the rest of the code inside a loop and move to the next iteration"],
+        "correct_answer": "skip the rest of the code inside a loop and move to the next iteration"
+      },
+      {
+        "question": "In Python 'break' statement is used to ...",
+        "options": ["it is the same as 'continue' statement", "exit (terminate) the current loop prematurely"],
+        "correct_answer": "exit (terminate) the current loop prematurely"
+      },
+      {
+        "question": "Over-sampling is technique for handling of imbalanced data sets, it  ...",
+        "options": ["duplicates or creates new instances of the minority class to balance the class distribution", "removes instances from the majority class to balance the class distribution"],
+        "correct_answer": "duplicates or creates new instances of the minority class to balance the class distribution"
+      },
+      {
+        "question": "Under-sampling is technique for handling of imbalanced data sets, it ...",
+        "options": ["duplicates or creates new instances of the minority class to balance the class distribution", "removes instances from the majority class to balance the class distribution"],
+        "correct_answer": "removes instances from the majority class to balance the class distribution"
+      },
+      {
+        "question": "Imbalanced data set is a data set where certain features in the data set have much higher variance compared to others",
+        "options": ["Yes", "No"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "White noise is characterized by its randomness and lack of correlation between successive values",
+        "options": ["Yes", "No", "you mean white nose?"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "Randomness, Constant Variance, Zero Autocorrelation, Flat Frequency Spectrum are key features of",
+        "options": ["white noise", "imbalanced data set", "random neuron's weight"],
+        "correct_answer": "white noise"
+      },
+      {
+        "question": "The dropout layer is a specific layer in a neural network that is used as ...",
+        "options": ["layer where neuron with 0 value are deactivated (dropped out)", "a regularization technique to prevent overfitting", "a regularization technique to prevent underfitting"],
+        "correct_answer": "a regularization technique to prevent overfitting"
+      },
+      {
+        "question": "Underfitting prevention is not associated with a specific layer in neural network",
+        "options": ["Yes, it is associated, it happens in Dropout layer as well as overfitting prevention", "No, not associated, there is no any specific layer, it belongs to the training process itself"],
+        "correct_answer": "No, not associated, there is no any specific layer, it belongs to the training process itself"
+      },
+      {
+        "question": "What is GAN in AI?",
+        "options": ["Global Area Network", "Generative Adversarial Network", "Gallium Nitride"],
+        "correct_answer": "Generative Adversarial Network"
+      },
+      {
+        "question": "Generative Adversarial Network is used to generate synthetic data",
+        "options": ["Yes", "No"],
+        "correct_answer": "Yes"
+      },
+      {
+        "question": "Synthetic data is ...",
+        "options": ["White noise", "artificially generated data that mimics the statistical properties and patterns of real-world data", "term related to feature engineering"],
+        "correct_answer": "artificially generated data that mimics the statistical properties and patterns of real-world data"
+      }
+   
+   
+   ]
+   
